@@ -14,22 +14,23 @@ To use this Flyout Menu, you have to do a few things:
 
 # Instructions
 1. Link the "flyout_menu_style.css" file.
-2. Link the current jQuery library (in this case: "jquery-3.3.1.min.js").
-  NOTE: Always check for a later version on https://jquery.com/download/
-3. Link the "flyout_menu_code.js" file.
-4. Copy the lines between the two comments in the HTML file and paste them into your HTML file.
-5. Adjust HTML the lines to your desires (but keep in mind that you have to keep the structure as it is).
-6. Adjust the CSS variables.
-7. Adjust the JS variables in the "responsive_menu_code.js" file.
+2. Link the "flyout_menu_code.js" file.
+_______________________
+  NOTE: You need to link it at the end of the body tag.
+_______________________
+3. Copy the lines between the two comments in the HTML file and paste them into your HTML file.
+4. Adjust HTML the lines to your desires (but keep in mind that you have to keep the structure as it is).
+5. Adjust the CSS variables.
+6. Adjust the JS variables in the "responsive_menu_code.js" file.
 _______________________
   From here everything is optional but I suggest following this instruction.
   This will make sure you have support for older browsers.
 _______________________  
-8. Use [CTRL+F] (sometimes [CTRL+H]) to replace the variables within the CSS file.
-9. Delete everything in ":root{}" (INCLUDING the ":root" name and brackets).
+7. Use [CTRL+F] (sometimes [CTRL+H]) to replace the variables within the CSS file.
+8. Delete everything in ":root{}" (INCLUDING the ":root" name and brackets).
 
 # Additional Instruction
-You can also use the SCSS file to compile it to a CSS file which replaces steps number: 6, 8, 9.
+You can also use the SCSS file to compile it to a CSS file which replaces steps number: 5, 7, 8.
 However, compiling SCSS files can be a bit tricky depending on the setup. If you are new to it, feel free to check out this compiler:
 https://scout-app.io/
 
